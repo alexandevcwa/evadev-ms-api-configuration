@@ -1,0 +1,8 @@
+spring:
+  config:
+    active:
+      profiles: "develop"
+  datasource:
+    username: {encrypt}4c467fb2def36dbcae52abb91129f56c0df5054e4075f7c825924e590f48d3df
+    password: {encrypt}b365b483278dd4421a10501d4ddf5c7859e6c6a659e3ed20680a31db8f2bbef5
+    url: "jdbc:postgresql://192.168.1.100:5432/evadev_ms_1_organizational_structure_develop"
